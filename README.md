@@ -53,14 +53,8 @@ Screens should look something like that:
 - Schema supporting:
   - Access logs (citizen, place, timestamp, result)
 
-## Functional Requirements
-- Quickly validate citizen access to a place
-- Record each access attempt (success or failure)
-- Provide UI to review detailed access logs
-
 ## Bonus Points
 - Proper error handling and input validation
-- Unit tests covering critical business logic (required)
 - **Dynamic management of citizens, roles, and places via additional API endpoints (UI optional).**
 
 ## Submission Requirements
