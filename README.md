@@ -8,11 +8,12 @@ Maui was asked by the gods to guard Apulalula Island and grant access to importa
 
 ## Maui's Requirements for the Tool
 
-1. Maintain records of all places (can be hardcoded).
-2. Citizens have roles granting access to specific places (citizens and roles can be hardcoded).
-3. Roles can have sub-roles, inheriting permissions.
-4. Maui will use the tool to verify citizen access, so a user-friendly UI is essential.
-5. **Record every access check (allowed or denied) in the system and provide a UI to review access logs.**
+1. Maintain records of all places, citizens and roles (can be hardcoded).
+2. Roles are granting access to specific places.
+3. Roles can have sub-roles, inheriting permissions (access to places) of their parent roles.
+4. All citizens should be assigned to a role (can be hardcoded).
+5. Maui will use the tool to verify citizen access, so a user-friendly UI is essential.
+6. **Record every access check (allowed or denied) in the system and provide a UI to review access logs.**
 
 ## Your Task
 
@@ -45,8 +46,7 @@ Screens should look something like that:
    - Roles (name, subRoles)
    - Places (name, rolesAllowed)
    - Access logs (citizen + role, place, access result, timestamp)
-- Tests covering critical business logic
-- **Role hierarchy (parent-child roles)**
+- **Access validation APIs includes role hierarchy validation (parent-child roles)**
 
 ### Database
 - Database of your choice (MongoDB preferred)
@@ -56,12 +56,17 @@ Screens should look something like that:
 ## Bonus Points
 - Proper error handling and input validation
 - **Dynamic management of citizens, roles, and places via additional API endpoints (UI optional).**
+- Testing
+  - There should be unit tests for core functionality of role validation.
+  - At least one e2e test covering UI interaction with backend.
 
 ## Submission Requirements
-- Pull request to the repository
+- Fork this repository to your own GitHub account
+- Create a pull request to your fork repository with:
+  - Explanation of technical decisions and architecture
+  - List of assumptions made
 - API documentation (optional)
-- Explanation of technical decisions and architecture
-- List of assumptions made
+- Send us a link to your fork repository
 
 ## Evaluation Criteria
 - Code quality and architecture
