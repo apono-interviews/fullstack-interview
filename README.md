@@ -61,12 +61,10 @@ Screens should look something like that:
   - At least one e2e test covering UI interaction with backend.
 
 ## Submission Requirements
-- Fork this repository to your own GitHub account
-- Create a pull request to your fork repository with:
+Create a pull request to this repository containing:
   - Explanation of technical decisions and architecture
   - List of assumptions made
-- API documentation (optional)
-- Send us a link to your fork repository
+  - API documentation (optional)
 
 ## Evaluation Criteria
 - Code quality and architecture
