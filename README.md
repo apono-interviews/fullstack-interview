@@ -76,4 +76,4 @@ Create a pull request to this repository containing:
 - Implementation of logging requirements
 
 ## Time Estimate
-This assignment should take approximately **5-6 hours** to complete. Submit your solution within **5 days**.
+This assignment should take approximately **5-6 hours** to complete. Submit your solution within **3 days**.
