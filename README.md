@@ -42,10 +42,14 @@ Screens should look something like that:
 ### Backend
 - RESTful API with any preferred technology stack (Node.js with NestJS preferred, but you may use any stack you're comfortable with).
 - Implement data models for:
-   - Citizens (name, roles)
-   - Roles (name, subRoles)
-   - Places (name, rolesAllowed)
-   - Access logs (citizen + role, place, access result, timestamp)
+   - Citizens
+   - Roles
+   - Places
+   - Access logs
+     - citizen name
+     - place name
+     - timestamp
+     - access result
 - **Access validation APIs includes role hierarchy validation (parent-child roles)**
 
 ### Database
@@ -57,14 +61,11 @@ Screens should look something like that:
 - Proper error handling and input validation
 - **Dynamic management of citizens, roles, and places via additional API endpoints (UI optional).**
 - Testing
-  - There should be unit tests for core functionality of role validation.
+  - There should be unit tests for core functionality (access resolving) of role validation.
   - At least one e2e test covering UI interaction with backend.
 
 ## Submission Requirements
-Create a pull request to this repository containing:
-  - Explanation of technical decisions and architecture
-  - List of assumptions made
-  - API documentation (optional)
+Create a public repo on github (or any other platform) and send us a link to it.
 
 ## Evaluation Criteria
 - Code quality and architecture
