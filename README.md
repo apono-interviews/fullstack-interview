@@ -77,4 +77,4 @@ Create a public repo on github (or any other platform) and send us a link to it.
 - Implementation of logging requirements
 
 ## Time Estimate
-This assignment should take approximately **5-6 hours** to complete. Submit your solution within **5 days**.
+This assignment should take approximately **5-6 hours** to complete. Submit your solution within **3 days**.
